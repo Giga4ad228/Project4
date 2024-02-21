@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Unbounded;
+    src: url(fonts/Unbounded-Bold.ttf);
+}
+
+@font-face {
+    font-family: Emoji;
+    src: url(fonts/Emoji.ttf);
+}
+
+@font-face {
+    font-family: UnboundedSlim;
+    src: url(fonts/Unbounded-Slim.ttf)
+}
+
+
+html,
+body {
+    background-color: #FAEEDD;
+    height: 100%;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.main_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+
+.main_div_container {
+    font-size: 80px;
+    font-family: Unbounded;
+    text-align: center;
+    width: 100%;
+}
+
+.main_div_flowers {
+    font-size: 80px;
+    font-family: Emoji;
+    transition: 2s;
+}
+
+.main_div_buttons button {
+    color: #fff;
+    border-radius: 50px;
+    background-color: #000000;
+    border: none;
+    outline: none;
+    padding: 20px 30px 20px 30px;
+    cursor: pointer;
+    font-family: Unbounded;
+    font-size: 15px;
+}
+
+.floral_splendor_div h1 {
+    font-size: 48px;
+    font-family: Unbounded;
+}
+
+.floral_splendor_div {
+    text-align: center;
+    width: 100%;
+}
+
+.floral_splendor_text {
+    font-family: UnboundedSlim;
+    font-weight: 400;
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.floral_masterpieces_div h1 {
+    font-size: 48px;
+    font-family: Unbounded;
+}
+
+.floral_masterpieces_div {
+    text-align: center;
+    width: 100%;
+}
+
+.grid-fm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    mix-blend-mode: luminosity;
+    
+}
+
+.grid-fm img{
+    border-radius: 50px;
+    width: 1000px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+
+.floral_blocks {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.floral_blocks_container {
+    background-color: #fae8ce;
+    border-radius: 20px;
+    display: flex;
+    width: 400px;
+    height: 200px;
+}
+
+.floral_blocks_container:nth-child(2n){
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.blocks-img img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    border: 5px solid white;
+}
+
+.blocks-img {
+    margin-left: 25px;
+    margin-top: 25px;
+    
+}
+
+.blocks-text {
+    font-family: 'Unbounded';
+    margin-top: 40px;
+    margin-left: 15px;
+    width: 250px;
+    font-size: 14px;
+}
+
+.blocks-footer {
+    font-family: 'Unbounded';
+    height: 100px;
+    display: flex;
+    align-items: end;
+    font-size: 12px;
+}
+
+.popular_answer {
+    font-size: 30px;
+    font-family: 'Unbounded';
+    margin-top: 150px;
+    text-align: center;
+}
+
+.popular_answer_text {
+    font-family: 'UnboundedSlim';
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.popular_answer_text a{
+    text-decoration: none;
+    color: #000
+}
+
+.popular_answer_text p{
+    margin-top: -20px;
+}
